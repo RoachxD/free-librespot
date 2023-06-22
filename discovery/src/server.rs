@@ -101,7 +101,11 @@ impl RequestHandler {
             // TODO: bitmask but what are the flags?
             "supported_capabilities": 1,
             // undocumented but should still work
+<<<<<<< HEAD
             // "accountReq": "PREMIUM",
+=======
+            "accountReq": "FREE",
+>>>>>>> parent of 3b01363 (Updated according to `ZeroConf API` docs!)
             "activeUser": active_user,
             // others seen-in-the-wild:
             // - "deviceAPI_isGroup": False
