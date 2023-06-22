@@ -446,7 +446,7 @@ impl SpClient {
             // we only support premium anyway.
             let _ = write!(
                 url,
-                "{}product=0&country={}",
+                "{}product=free&country={}",
                 separator,
                 self.session().country()
             );
